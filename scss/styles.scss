@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600;700&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&family=Outfit:wght@400;700&display=swap');
+
+/*font-family: 'Outfit', sans-serif;*/
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.qr-code{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.card-text{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.bolder{
+    font-weight: 700;
+    font-size: 20px;
+}
+.lighter{
+    font-weight: 400;
+    font-size: 15px;
+}
+.attribution{
+    a{
+        text-decoration: none;
+    }
+        position: absolute;
+        bottom: 15px;
+    
+    
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background-color: hsl(220, 15%, 55%);
+    }
+    
+}
